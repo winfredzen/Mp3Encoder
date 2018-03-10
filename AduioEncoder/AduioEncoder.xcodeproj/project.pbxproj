@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354AC7B04B8F23F4C27127E2 /* libPods-AduioEncoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD718A0ECEF742DE80EC2513 /* libPods-AduioEncoder.a */; };
+		D7ED1D382053ACE3006DB07B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ED1D372053ACE3006DB07B /* AppDelegate.m */; };
+		D7ED1D3B2053ACE3006DB07B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7ED1D3A2053ACE3006DB07B /* ViewController.mm */; };
+		D7ED1D3E2053ACE3006DB07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED1D3C2053ACE3006DB07B /* Main.storyboard */; };
+		D7ED1D402053ACE3006DB07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7ED1D3F2053ACE3006DB07B /* Assets.xcassets */; };
+		D7ED1D432053ACE3006DB07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED1D412053ACE3006DB07B /* LaunchScreen.storyboard */; };
+		D7ED1D462053ACE3006DB07B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ED1D452053ACE3006DB07B /* main.m */; };
+		D7ED1D5C2053C198006DB07B /* mp3_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7ED1D5B2053C198006DB07B /* mp3_encoder.cpp */; };
+		D7ED1D5F2053C514006DB07B /* vocal.pcm in Resources */ = {isa = PBXBuildFile; fileRef = D7ED1D5E2053C514006DB07B /* vocal.pcm */; };
+		D7ED1D622053CB56006DB07B /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ED1D612053CB56006DB07B /* libmp3lame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		502134DD594E6700D8558084 /* Pods-AduioEncoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AduioEncoder.release.xcconfig"; path = "Pods/Target Support Files/Pods-AduioEncoder/Pods-AduioEncoder.release.xcconfig"; sourceTree = "<group>"; };
+		AD718A0ECEF742DE80EC2513 /* libPods-AduioEncoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AduioEncoder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3262B8A7558AF5FA682F399 /* Pods-AduioEncoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AduioEncoder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AduioEncoder/Pods-AduioEncoder.debug.xcconfig"; sourceTree = "<group>"; };
+		D7ED1D332053ACE3006DB07B /* AduioEncoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AduioEncoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7ED1D362053ACE3006DB07B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7ED1D372053ACE3006DB07B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7ED1D392053ACE3006DB07B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7ED1D3A2053ACE3006DB07B /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		D7ED1D3D2053ACE3006DB07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7ED1D3F2053ACE3006DB07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7ED1D422053ACE3006DB07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7ED1D442053ACE3006DB07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7ED1D452053ACE3006DB07B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7ED1D5A2053C198006DB07B /* mp3_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp3_encoder.h; sourceTree = "<group>"; };
+		D7ED1D5B2053C198006DB07B /* mp3_encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mp3_encoder.cpp; sourceTree = "<group>"; };
+		D7ED1D5E2053C514006DB07B /* vocal.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = vocal.pcm; sourceTree = "<group>"; };
+		D7ED1D602053CB50006DB07B /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		D7ED1D612053CB56006DB07B /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7ED1D302053ACE3006DB07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354AC7B04B8F23F4C27127E2 /* libPods-AduioEncoder.a in Frameworks */,
+				D7ED1D622053CB56006DB07B /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7403B5B0A8AC7702F3760233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3262B8A7558AF5FA682F399 /* Pods-AduioEncoder.debug.xcconfig */,
+				502134DD594E6700D8558084 /* Pods-AduioEncoder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE218B73B85A3D8A81B96A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD718A0ECEF742DE80EC2513 /* libPods-AduioEncoder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7ED1D2A2053ACE2006DB07B = {
+			isa = PBXGroup;
+			children = (
+				D7ED1D352053ACE3006DB07B /* AduioEncoder */,
+				D7ED1D342053ACE3006DB07B /* Products */,
+				7403B5B0A8AC7702F3760233 /* Pods */,
+				CE218B73B85A3D8A81B96A86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7ED1D342053ACE3006DB07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED1D332053ACE3006DB07B /* AduioEncoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7ED1D352053ACE3006DB07B /* AduioEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED1D5D2053C514006DB07B /* resource */,
+				D7ED1D4F2053BF54006DB07B /* 3rdParty */,
+				D7ED1D362053ACE3006DB07B /* AppDelegate.h */,
+				D7ED1D372053ACE3006DB07B /* AppDelegate.m */,
+				D7ED1D392053ACE3006DB07B /* ViewController.h */,
+				D7ED1D3A2053ACE3006DB07B /* ViewController.mm */,
+				D7ED1D3C2053ACE3006DB07B /* Main.storyboard */,
+				D7ED1D3F2053ACE3006DB07B /* Assets.xcassets */,
+				D7ED1D412053ACE3006DB07B /* LaunchScreen.storyboard */,
+				D7ED1D442053ACE3006DB07B /* Info.plist */,
+				D7ED1D452053ACE3006DB07B /* main.m */,
+				D7ED1D5B2053C198006DB07B /* mp3_encoder.cpp */,
+				D7ED1D5A2053C198006DB07B /* mp3_encoder.h */,
+			);
+			path = AduioEncoder;
+			sourceTree = "<group>";
+		};
+		D7ED1D4F2053BF54006DB07B /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED1D502053BF65006DB07B /* lame */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		D7ED1D502053BF65006DB07B /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED1D512053BF65006DB07B /* include */,
+				D7ED1D542053BF65006DB07B /* lib */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		D7ED1D512053BF65006DB07B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED1D522053BF65006DB07B /* lame */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D7ED1D522053BF65006DB07B /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED1D602053CB50006DB07B /* lame.h */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		D7ED1D542053BF65006DB07B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED1D612053CB56006DB07B /* libmp3lame.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D7ED1D5D2053C514006DB07B /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED1D5E2053C514006DB07B /* vocal.pcm */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7ED1D322053ACE3006DB07B /* AduioEncoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7ED1D492053ACE3006DB07B /* Build configuration list for PBXNativeTarget "AduioEncoder" */;
+			buildPhases = (
+				2543EAEE78BEB72DEFC4756C /* [CP] Check Pods Manifest.lock */,
+				D7ED1D2F2053ACE3006DB07B /* Sources */,
+				D7ED1D302053ACE3006DB07B /* Frameworks */,
+				D7ED1D312053ACE3006DB07B /* Resources */,
+				0431EC2795C79D5C6D46B7F8 /* [CP] Embed Pods Frameworks */,
+				92BC8DEE058C4A1492B8FD90 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AduioEncoder;
+			productName = AduioEncoder;
+			productReference = D7ED1D332053ACE3006DB07B /* AduioEncoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7ED1D2B2053ACE2006DB07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wangzhen;
+				TargetAttributes = {
+					D7ED1D322053ACE3006DB07B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7ED1D2E2053ACE2006DB07B /* Build configuration list for PBXProject "AduioEncoder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7ED1D2A2053ACE2006DB07B;
+			productRefGroup = D7ED1D342053ACE3006DB07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7ED1D322053ACE3006DB07B /* AduioEncoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7ED1D312053ACE3006DB07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7ED1D5F2053C514006DB07B /* vocal.pcm in Resources */,
+				D7ED1D432053ACE3006DB07B /* LaunchScreen.storyboard in Resources */,
+				D7ED1D402053ACE3006DB07B /* Assets.xcassets in Resources */,
+				D7ED1D3E2053ACE3006DB07B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0431EC2795C79D5C6D46B7F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AduioEncoder/Pods-AduioEncoder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2543EAEE78BEB72DEFC4756C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AduioEncoder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92BC8DEE058C4A1492B8FD90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AduioEncoder/Pods-AduioEncoder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7ED1D2F2053ACE3006DB07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7ED1D3B2053ACE3006DB07B /* ViewController.mm in Sources */,
+				D7ED1D462053ACE3006DB07B /* main.m in Sources */,
+				D7ED1D382053ACE3006DB07B /* AppDelegate.m in Sources */,
+				D7ED1D5C2053C198006DB07B /* mp3_encoder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7ED1D3C2053ACE3006DB07B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7ED1D3D2053ACE3006DB07B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7ED1D412053ACE3006DB07B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7ED1D422053ACE3006DB07B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7ED1D472053ACE3006DB07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7ED1D482053ACE3006DB07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7ED1D4A2053ACE3006DB07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3262B8A7558AF5FA682F399 /* Pods-AduioEncoder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W595DU2C8B;
+				INFOPLIST_FILE = AduioEncoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AduioEncoder/3rdParty/lame/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xx.AduioEncoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7ED1D4B2053ACE3006DB07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502134DD594E6700D8558084 /* Pods-AduioEncoder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W595DU2C8B;
+				INFOPLIST_FILE = AduioEncoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AduioEncoder/3rdParty/lame/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xx.AduioEncoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7ED1D2E2053ACE2006DB07B /* Build configuration list for PBXProject "AduioEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7ED1D472053ACE3006DB07B /* Debug */,
+				D7ED1D482053ACE3006DB07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7ED1D492053ACE3006DB07B /* Build configuration list for PBXNativeTarget "AduioEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7ED1D4A2053ACE3006DB07B /* Debug */,
+				D7ED1D4B2053ACE3006DB07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7ED1D2B2053ACE2006DB07B /* Project object */;
+}
